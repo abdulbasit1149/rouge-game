@@ -28,5 +28,6 @@ roomInfo.o:src/roomInfo.c
 	gcc -c -Wall -std=c99 src/roomInfo.c -Iinclude
 
 clean:
-	rm *.o
-	rm a.out
+	rm *.o -f
+	rm a.out -f
+
